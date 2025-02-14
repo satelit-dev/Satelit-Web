@@ -1,7 +1,7 @@
 
 
 var Typed= new Typed(".text",{
-    Strings:["Innovation", "Discussion", "Information", "Visualization"],
+    strings:["Innovation", "Discussion", "Information", "Visualization"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
