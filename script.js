@@ -1,6 +1,6 @@
 
 
-var Typed= new Typed(".text",{
+var Typed= new Typed("text",{
     strings:["Innovation", "Discussion", "Information", "Visualization"],
     typeSpeed: 100,
     backSpeed: 100,
