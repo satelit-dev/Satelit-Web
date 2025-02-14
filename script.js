@@ -1,13 +1,12 @@
-
-
-var Typed= new Typed("text",{
+document.addEventListener('DOMContentLoaded', () => {
+    var Typed= new Typed(".text",{
     strings:["Innovation", "Discussion", "Information", "Visualization"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
+    });
 });
-
 document.querySelectorAll('.navbar a').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
