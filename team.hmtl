@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satelit Araştırma Merkezi - Home</title>
+    <link rel="satelit icon" href="/components/logo/favicon.png">
+
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- for the necessary minimalist icon -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="index.html" class="logo"><img src="/components/logo/logo satelit putih new.png" 	alt="Satelit Logo"></a>
+        <div class='bx bx-menu' id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="#projects">Our Effort</a>
+            <a href="team.html">Our Team</a>
+            <a href="index.html#feedback">Feedback</a>
+	    <a href="#dashboard">Dashboard</a>
+            <a href="#contact">Contact Us</a>	
+        </nav>
+    </header>
+	<section class="team" id="team">
+            <div class="container">
+                <h2>Our <span>Core Team</span></h2>
+                <div class="team-grid">
+                    <div class="team-content">
+                        <img src="/components/img/arya.jpg" alt="Muka Arya">
+                        <h3>Arya Alifa MUKTI</h3>
+                        <h4>aryaalifa@ogr.sakarya.edu.tr</h4>
+                        <p>Editor in Chief</p>
+                    </div>
+                    <div class="team-content">
+                        <img src="/components/img/01sayyid.jpg" alt="Muka Ganteng">
+                        <h3>Sayyid Ramadhan ASH SHIDDIQIE</h3>
+                        <h4>sayyid@ogr.sakarya.edu.tr</h4>
+                        <p>Chief of Digital and Information Officer</p>
+                    </div>
+                    <div class="team-content">
+                        <img src="/components/img/fecri.jpg" alt="Muka Fajri">
+                        <h3>Fajri DESTUANO</h3>
+                        <h4>fecri@ogr.sakarya.edu.tr</h4>
+                        <p>Chief Research and Policy Officer
+                        </p>
+                    </div>
+                    <div class="team-content">
+                        <img src="/components/img/peki.jpg" alt="Muka Peki">
+                        <h3>Faqih Ali NAUFAL</h3>
+                        <h4>faqih@ogr.sakarya.edu.tr</h4>
+                        <p>Executive Director of Creative Strategy</p>
+                    </div>
+                    <div class="team-content">
+                        <img src="/components/img/cat.jpg" alt="Muka Ança">
+                        <h3>Arsya KHAIRUNNISA</h3>
+                        <h4>arsya@ogr.sakarya.edu.tr</h4>
+                        <p>Chief Communication Officer</p>
+                    </div>
+                    <div class="team-content">
+                        <img src="/components/img/bahir.jpg" alt="Muka Baher">
+                        <h3>Muhammad Bahir RAMADHAN</h3>
+                        <h4>bahir@ogr.sakarya.edu.tr</h4>
+                        <p>Director of Visual and Media Arts
+                        </p>
+                    </div>
+                    <div class="team-content">
+                        <img src="/components/img/cat.jpg" alt="Muka Rama">
+                        <h3>Muhammad Rama Adjie HAIDAR</h3>
+                        <h4>rama@ogr.sakarya.edu.tr</h4>
+                        <p>Co-Director of Visual and Media Arts</p>
+                    </div>
+                    <div class="team-content">
+                        <img src="/components/img/cat.jpg" alt="Muka Azma">
+                        <h3>Azma Nur HAFIDZAH</h3>
+                        <h4>azma@ogr.sakarya.edu.tr</h4>
+                        <p>Chief Admistrative Officer</p>
+                    </div>
+ 		            <div class="team-content">
+                        <img src="/components/img/cat.jpg" alt="Muka Arkan">
+                        <h3>Muhammad Arkan MAKRAMI</h3>
+                        <h4>arkan@ogr.sakarya.edu.tr</h4>
+                        <p>Director of Design and Aesthetic
+                        </p>
+                    </div>
+  		            <div class="team-content">
+                        <img src="/components/img/cat.jpg" alt="Muka Aisyah">
+                        <h3>Aisyah Nur RAFIDAH</h3>
+                        <h4>aisyah@ogr.sakarya.edu.tr</h4>
+                        <p>Senior Research and Policy Officer</p>
+                    </div>
+		            <div class="team-content">
+                        <img src="/components/img/cat.jpg" alt="Muka Nyimas">
+                        <h3>Nyimas Tasya FARHANA</h3>
+                        <h4>nyimas@ogr.sakarya.edu.tr</h4>
+                        <p>Senior Communication Officer</p>
+                    </div>
+		            <div class="team-content">
+                        <img src="/components/img/cat.jpg" alt="Muka Resera">
+                        <h3>Reisera Fatiha RAHMANIA</h3>
+                        <h4>resera@ogr.sakarya.edu.tr</h4>
+                        <p>Creative Strategist Director</p>
+                    </div>
+		            <div class="team-content">
+                        <img src="/components/img/cat.jpg" alt="Muka Mutia">
+                        <h3>Mutia Maharani KUSUMA</h3>
+                        <h4>mutia@ogr.sakarya.edu.tr</h4>
+                        <p>Graphic Designer</p>
+                    </div>
+		            <div class="team-content">
+                        <img src="/components/img/cat.jpg" alt="Muka Hana">
+                        <h3>Syahidah Hana AISYAH</h3>
+                        <h4>hana@ogr.sakarya.edu.tr</h4>
+                        <p>Technology and Data Management Officer
+                        </p>
+                    </div>
+		            <div class="team-content">
+                        <img src="/components/img/ando.jpg" alt="Muka Ando">
+                        <h3>Reisyaff Fiermy Cantando ABIYU</h3>
+                        <h4>ando@ogr.sakarya.edu.tr</h4>
+                        <p>Digital Strategy and Innovation Officer
+                        </p>
+                    </div>
+		            <div class="team-content">
+                        <img src="/components/img/marap.jpg" alt="Muka Raka">
+                        <h3>Muhammad Raka PRADIPTA</h3>
+                        <h4>marap@ogr.sakarya.edu.tr</h4>
+                        <p>Technology and Data Management Officer
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Satelit | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
