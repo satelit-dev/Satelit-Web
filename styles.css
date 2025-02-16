@@ -88,9 +88,14 @@ body {
   height: auto;
 }
 
+/* .navbar {
+    display: flex;
+    gap: 2rem;
+} */
+
 .navbar a {
     font-size: 1.5rem;
-    color: var(--pure-white);
+    color: var(--text-white);
     margin-left: 3rem;
     font-weight: 500;
     transition: all 0.3s ease;
@@ -239,6 +244,38 @@ section.visible {
 
 .btn-box .btn:hover{
     transform: scale(1.05);
+}
+
+/* social media section */
+.soc-med { 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 4rem;
+    margin-top: 30px;
+}
+
+.soc-med a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--text-white);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--text-white);
+    margin: 5rem 1.5rem 3rem 1.5rem;
+    transition: transform .5s ease;
+}
+
+.soc-med a:hover {
+    transform: scale(1.05);
+    background: var(--pink-gradient);
+    color: var(--black);
 }
 
 
@@ -441,7 +478,7 @@ span{
     text-align: center; /* Center-align the content within the container */
 }
 
-  #team .container h2{
+#team .container h2{
     margin-top: 5rem;
     margin-bottom: 5rem;
     font-size: 3rem;
@@ -500,33 +537,6 @@ span{
     margin-top: 7rem;
     text-align: center;
     
-}
-
-/* social media section */
-.soc-med { 
-    position: absolute;
-    bottom: 4rem;
-}
-
-.soc-med a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 4rem;
-    height: 4rem;
-    background: transparent;
-    border: .2rem solid var(--text-white);
-    border-radius: 50%;
-    font-size: 2rem;
-    color: var(--text-white);
-    margin: 3rem 1.5rem 3rem 0;
-    transition: transform .5s ease;
-}
-
-.soc-med a:hover {
-    transform: scale(1.05);
-    background: var(--pink-gradient);
-    color: var(--black);
 }
 
 /* feedback section */
