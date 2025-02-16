@@ -38,3 +38,44 @@ menuIcon.addEventListener('click', () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 });
+
+
+// Feedback Queries
+
+document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Get form values
+    var fullName = document.querySelector('input[name="fullName"]').value;
+    var emailAddress = document.querySelector('input[name="emailAddress"]').value;
+    var message = document.querySelector('textarea[name="message"]').value;
+
+    // Create the data object
+    var formData = {
+        'fullName': fullName,
+        'emailAddress': emailAddress,
+        'message': message
+     };
+
+    // Google Apps Script Web App URL
+    var scriptURL = 'https://script.google.com/macros/s/AKfycbxQGIn-0jF48F6toq6rKen4Zc6IktdqIB_zXlmj66DBXET4sYcLz13DQFEztGzOaHdd/exec';
+
+    // Make the POST request
+    fetch(scriptURL, {
+        method: 'POST',
+        mode: 'no-cors', 
+        body: new URLSearchParams(formData)
+    })
+    
+    .then(response => {
+        // The server returns a plain text string, so we use response.text()
+        console.log('Success!', response);
+        alert('Thank you for your feedback!'); // Optional: display a success message
+        document.getElementById('feedbackForm').reset(); // Clear the form
+    })
+    // .catch(error => {
+    //      console.error('Error!', error.message);
+    //     alert('An error occurred. Please try again later.');
+    // });
+});
+
