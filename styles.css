@@ -60,7 +60,7 @@ body {
 .logo {
   margin-bottom: 0.5rem;
   position: relative;
-  max-width: 100px;
+  max-width: 150px;
   cursor: default;
   /* opacity: 0; */
   /* animation: slideRight 1s ease forewards; */
