@@ -1,24 +1,26 @@
 
-var typed= new Typed(".text",{
-    strings:["Digitalization", "Discussion", "Information", "Literacy"],
-    typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 1000,
-    loop: true
-});
-
-// Add scroll event listener
 document.addEventListener('DOMContentLoaded', function() {
-    window.addEventListener('scroll', function() {
-        const header = document.querySelector('.header');
-        const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    // Header Scroll Effect
+    const header = document.querySelector('header.header');
+    
+    if (header) {
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset > 50;
+            header.classList.toggle('scrolled', scrolled);
+        });
+    }
 
-        if (scrollPosition > 50) { // Added threshold for better UX
-            header.classList.add('scrolled');
-        } else {
-            header.classList.remove('scrolled');
-        }
-    });
+    const typedElements = document.querySelectorAll('.text');
+    if (typedElements.length > 0) {
+        // Initialize Typed.js only if elements exist
+        new Typed('.text', {
+            strings: ["Innovation", "Discussion", "Information", "Visualization"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+    }
 });
 
 document.querySelectorAll('.navbar a').forEach(anchor => {
