@@ -721,10 +721,10 @@ span{
     }
     .navbar {
         position: absolute;
-        top: var(--header-height);
+        top: 0;
         left: -100%;
         width: 100%;
-        height: calc(100vh - var(--header-height));
+        height: calc(100vh - 0vh);
         padding: 1rem 3%;
         background: var(--bg-color);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
