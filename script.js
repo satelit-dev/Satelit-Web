@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (typedElements.length > 0) {
         // Initialize Typed.js only if elements exist
         new Typed('.text', {
-            strings: ["Innovation", "Discussion", "Information", "Visualization"],
+            strings: ["Research", "Discussion", "Information", "Literacy"],
             typeSpeed: 100,
             backSpeed: 100,
             backDelay: 1000,
