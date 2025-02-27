@@ -48,6 +48,12 @@ body {
     transition: all .3s ease;
 }
 
+.header.scrolled {
+    background: rgba(26, 26, 26, 0.8); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
 /* .header,
 .navbar,
 .eff-card,
@@ -92,11 +98,6 @@ body {
     display: flex;
     gap: 2rem;
 } */
-.header.scrolled {
-    background: rgba(26, 26, 26, 0.8); 
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
 
 .navbar a {
     font-size: 1.5rem;
