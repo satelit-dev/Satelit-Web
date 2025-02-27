@@ -123,8 +123,8 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color: #FF6EC7;
-    border-bottom: 3px solid #FF6EC7;
+    color: #FF007F;
+    border-bottom: 3px solid #FF007F;
 }
 
 #menu-icon {
