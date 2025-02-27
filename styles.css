@@ -324,7 +324,7 @@ span{
 
 /* about incontent section */
 .about-incontent {
-    text-align: center;
+    text-align: left;
     margin-top: 5rem;
     margin-bottom: 0;
 }
@@ -341,7 +341,7 @@ span{
 
 /* mission content section */
 .mission-content {
-    text-align: center;
+    text-align: left;
     margin-top: 0;
 }
 .mission-content h2 {
@@ -356,7 +356,7 @@ span{
 
 /* vision content section */
 .vision-content {
-    text-align: center;
+    text-align: left;
     margin-top: 0;
 }
 .vision-content h2 {
@@ -370,7 +370,7 @@ span{
 
 /* values content section */ 
 .values-content {
-    text-align: center;
+    text-align: left;
     margin-top: 0;
 }
 .values-content h2 {
@@ -383,7 +383,7 @@ span{
 
 /* history content section */
 .history-content {
-    text-align: center;
+    text-align: left;
     margin-top: 0;
 }
 .history-content h2 {
