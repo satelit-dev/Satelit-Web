@@ -7,6 +7,19 @@ var typed= new Typed(".text",{
     loop: true
 });
 
+// Add scroll event listener
+document.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('scroll', function() {
+        const header = document.querySelector('.header');
+        const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollPosition > 50) { // Added threshold for better UX
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+});
 
 document.querySelectorAll('.navbar a').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
@@ -79,16 +92,3 @@ document.getElementById('feedbackForm').addEventListener('submit', function(even
     // });
 });
 
-// Add scroll event listener
-document.addEventListener('DOMContentLoaded', function() {
-    window.addEventListener('scroll', function() {
-        const header = document.querySelector('.header');
-        const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-
-        if (scrollPosition > 50) { // Added threshold for better UX
-            header.classList.add('scrolled');
-        } else {
-            header.classList.remove('scrolled');
-        }
-    });
-});
