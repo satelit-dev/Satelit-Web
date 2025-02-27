@@ -67,7 +67,7 @@ body {
   margin-bottom: 0.5rem;
   position: relative;
   max-width: 150px;
-  cursor: default;
+  cursor: pointer;
   /* opacity: 0; */
   /* animation: slideRight 1s ease forewards; */
   transition: 0.3 ease;
