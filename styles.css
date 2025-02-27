@@ -476,60 +476,80 @@ span{
 }
 
 /* Team Section */
-/* #team {
-    background-color: #3f3f46;
-    border-radius: 12px;
-} */
-
 #team .container {
-    text-align: center; /* Center-align the content within the container */
+    text-align: center;
+    padding: 2rem 0; 
 }
 
-#team .container h2{
+#team .container h2 {
     margin-top: 5rem;
     margin-bottom: 5rem;
     font-size: 4rem;
-    text-align: center; /* Center-align the content within the container */
-    
 }
-
 
 .team h3 {
     font-size: 2rem;
-    text-align: center;
     margin-top: 20px;
 }
 
 .team h4 {
     font-size: 1.5rem;
-    text-align: center;
-    margin: auto;
     font-weight: 400;
+    margin: 0.5rem 0; 
 }
 
 .team p {
     font-size: 15px;
-    text-align: center;
-    margin-top: .1rem;
+    margin-top: 0.1rem;
+    color: #666; 
 }
 
 .team .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    text-align: center;
+    padding: 0 2rem; 
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
-  
+
 .team-content {
+    position: relative;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem; 
+    transition: transform 0.3s ease; 
+    padding: 1rem; 
 }
-  
+
+.team-content:hover {
+    transform: translateY(-5px);
+}
+
 .team-content img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.team-content img:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Enhanced shadow on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #team .container h2 {
+        font-size: 3rem;
+        margin: 3rem 0;
+    }
+    
+    .team-content {
+        margin-bottom: 2rem;
+    }
 }
 
 .btn-box.team{
