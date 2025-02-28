@@ -595,15 +595,6 @@ span{
     margin-bottom: 50px;
 }
 
-.contact-info {
-    max-width: 800px; 
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
 .contact-info div {
     display: flex;
     align-items: center;
