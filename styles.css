@@ -737,7 +737,7 @@ span{
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 50%;
-    border: 1px solid var(--footer-text-color);
+    border: 1px solid var(--text-white);
     color: var(--text-white);
     text-decoration: none;
     transition: transform .5s ease;
