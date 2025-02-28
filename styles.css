@@ -755,7 +755,7 @@ span{
 }
 
 .footer-column ul li a {
-    color: var(--footer-text-color);
+    color: var(--text-white);
     text-decoration: none;
     font-size: 0.9rem;
     transition: all 0.3s ease;
@@ -769,14 +769,14 @@ span{
 
 /* Bottom Section */
 .footer-bottom {
-    max-width: 1200px;
-    margin: 3rem auto 0;
-    padding: 2rem 2rem 0;
+    margin: 3rem 0 0 0;
+    padding: .5rem 0 0 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-legal {
-    margin-bottom: 2rem;
+    margin: 1rem;
+    text-align: center;
 }
 
 .footer-legal p {
@@ -787,21 +787,23 @@ span{
 
 .footer-bottom-links ul {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1.5rem;
     list-style: none;
+    margin: 1rem;
     padding: 0;
 }
 
 .footer-bottom-links ul li a {
-    color: var(--footer-text-color);
+    color: var(--text-white);
     text-decoration: none;
-    font-size: 0.75rem;
+    font-size: 1rem;
     transition: all 0.3s ease;
 }
 
 .footer-bottom-links ul li a:hover {
-    color: var(--footer-link-hover);
+    color: #FF007F;
 }
 
 
