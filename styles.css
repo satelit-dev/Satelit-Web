@@ -666,10 +666,9 @@ span{
 /* Footer Section */
 
 .footer {
-    background-color: var(--footer-bg-color);
+    background: var(---bg-color);
     color: var(--footer-text-color);
     padding: 4rem 0 2rem;
-    font-family: Arial, sans-serif;
 }
 
 .footer-main {
