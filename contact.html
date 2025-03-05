@@ -1,77 +1,67 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satelit Araştırma Merkezi</title>
+    <title>Satelit Araştırma Merkezi - Home</title>
     <link rel="satelit icon" href="components/logo/favicon.png">
 
     <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- for the necessary minimalist icon -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+	<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </head>
 
 <body>
     <!-- header design -->
     <header class="header">
-        <a href="index.html" class="logo"><img src="./components/logo/logo sideway white.png" alt="Satelit Logo"></a>
+        <a href="#home" class="logo"><img src="./components/logo/logo sideway white.png" alt="Satelit Logo"></a>
         <div class='bx bx-menu' id="menu-icon"></div>
 
         <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="#projects">Our Effort</a>
-            <a href="team.html">Our Team</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#effort">Our Effort</a>
+            <a href="#team">Our Team</a>
 	    <a href="index.html#feedback">Feedback</a>
 	    <a href="#dashboard">Dashboard</a>
-            <a href="contact.html" class="active">Contact Us</a>	
+            <a href="contact.html">Contact Us</a>	
         </nav>
     </header>
-	<section class="contact"id="contact">
-        <div class="container">
-            <h2>Contact<span> Us</span></h2>
-            <div class="contact-info">
-                <a>Feel free to use the form or drop us an <strong>email</strong>. Old-fashioned phone calls work too.</a>
-                <div class="contact-call">
-                    <i class='bx bx-phone-call'></i>
-                    <p>484.324.2400</p>
-                </div>
-                <div class="contact-email">
-                    <i class='bx bx-envelope' ></i>
-                    <p>satelit.sakarya@gmail.com</p>
-                </div>
-                <div class="contact-adress">
-                    <i class='bx bx-map' ></i>
-                    <p>Sakarya, Turkiye</p>
-                </div>
+
+    <!-- Our effort section -->z
+    <section class="hero">
+        <h1>Our <span>Projects</span></h1>
+        <div class="project-card">
+            <img src="D:\Satelit\Satelit-Web-main\Satelit-Web-main\exphoto2.jpg" alt="Effort 1">
+            <div class="project-info">
+                <h2>Satelit Magazine Vol.1</h2>
+                <p class="date">16 September 2023</p>
+                <p>Satelit Magazine serves as a comprehensive publication that compiles articles from both internal research and external writers.</p>
+                <a href="#" class="btn">Read More</a>
             </div>
-    </section> 
+        </div>
+        <div class="project-card">
+            <img src="D:\Satelit\Satelit-Web-main\Satelit-Web-main\exphoto.jpg" alt="Effort 1">
+            <div class="project-info">
+                <h2>FORBES</h2>
+                <p class="date">16 September 2023</p>
+                <p>FORBES is a platform dedicated to showcasing outstanding students in Sakarya and across Turkey.</p>
+                <a class="btn1">Cooming Soon</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="D:\Satelit\Satelit-Web-main\Satelit-Web-main\exphoto1.jpg" alt="Effort 1">
+            <div class="project-info">
+                <h2>Report Outlook</h2>
+                <p class="date">16 September 2023</p>
+                <p>Report Outlook is a biannual report that provides a structured overview of the six-month progress within Satelit.</p>
+                <a class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
 
-        <!-- feedback section -->
-        <section class="feedback" id="feedback">
-            <form id="feedbackForm">
-                <div class="input-box">
-                    <div class="input-field">
-                        <input type="text" placeholder="Full Name" name="fullName" required>
-                    </div>
-                </div>
-                <div class="input-box">
-                    <div class="input-field">
-                        <input type="email" placeholder="Email Address" name="emailAddress" required>
-                    </div>
-                </div>
-                <div class="textarea-field">
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
-                </div>
-                <div class="btn-box btns">
-                    <button type="submit" class="btn">Submit</button>
-                </div>
-            </form>
-        </section>       
-
-
-<!-- footer design -->
     <!-- footer design -->
     <footer class="footer">
         <div class="footer-main">
@@ -93,9 +83,9 @@ s<!DOCTYPE html>
                     <h3>What we do</h3>
                     <ul>
                         <li><a href="#">SATELIT MAGAZINE</a></li>
-                        <li><a href="#">SATELIT OUTLOOK</a></li>
-                        <li><a href="#">FORBES</a></li>
-                        <li><a href="#">DOCUMENTATION</a></li>
+                        <li><a href="#">SATELIT OUTLOOK</a> <i><span>coming soon!</span></i></li>
+                        <li><a href="#">FORBES</a> <i><span>coming soon!</span></i></li>
+                        <li><a href="https://www.flickr.com/photos/202322058@N02">DOCUMENTATION</a></li>
                     </ul>
                 </div>
             
@@ -130,6 +120,8 @@ s<!DOCTYPE html>
             </div>
         </div>
     </footer>
+	
+
     <script src="script.js"></script>
 </body>
 </html>
