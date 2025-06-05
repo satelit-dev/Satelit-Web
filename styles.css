@@ -154,6 +154,7 @@ section.visible {
     background: url("./components/img/space-bg.jpg");
     background-size: cover;
     background-position: center;
+    filter: blur(1px); /* meniru efek resolusi rendah */
 }
 
 .home-content {
